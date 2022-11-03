@@ -5,8 +5,8 @@
 }
 
 :root{
-    --ff-primary: 'source san pro',sans-serif;
-    --ff-secondary 'source code pro' monospace;
+    --ff-primary: 'source san pro sans-serif';
+    --ff-secondary: 'source code pro monospace';
     
     --fw-reg: 300;
     --fw-bold: 900;
@@ -44,8 +44,8 @@ img {
 
 h1,
 h2,
-h3,{
-    line-hight: 1.1;
+h3{
+    line-height: 1.1;
     margin: 0;
 }
 
@@ -54,11 +54,50 @@ h2 { font-size: var(--fs-h2);}
 h3 { font-size: var(--fs-h3);}
 
 
+.Logo{
+    display: inline-flex;
+    width: 100%;
+
+}
+
+#header_div{ 
+    display: inline-flex;
+    background-color: cornflowerblue;
+    width: 100%;
+
+}
+ 
+.nav__list{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#main_img{
+    flex: 10%;
+    height:100px;
+    width:100px; 
+}
 
 
+.nav{
+    flex: 90%;
+    text-align: right;
+}
 
+.nav__item{
+   margin: 10px;
+}
 
+.section__title{
+    display: flex;
+    justify-content: center;
+    
+    background-color: cornflowerblue;
+}
 
-
-
+.portfolio__item{
+    display: grid;
+    background-color: cornflowerblue;
+}
 
