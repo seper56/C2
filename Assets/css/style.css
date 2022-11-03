@@ -37,7 +37,8 @@ body{
 }
 
 img {
-    display: block;
+    display: flex;
+    justify-content: center;
     max-width: 100%;
 }
 
