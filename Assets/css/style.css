@@ -99,6 +99,9 @@ h3 { font-size: var(--fs-h3);}
 .portfolio__item{
     display: grid;
     background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    height: 200px; 
 }
 .title{
     background-color: cornflowerblue;
